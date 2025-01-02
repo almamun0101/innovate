@@ -1,0 +1,38 @@
+$open:  "Open Sans", serif;
+$paprika :  "Paprika", serif;
+$white : #FAFAFE;
+$green : #1BBF00;
+$violet : #6B62C5;
+
+
+body {
+    font: 100% $open;
+  }
+  a{
+    text-decoration: none;
+
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style: none;
+  }
+.container{
+    min-width: 1170px;
+}
+
+@mixin button($theme: $green) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, .25);
+  border: 3px solid transparent;
+  border-radius: 100px;
+  padding: 14px 28px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+
+  
+}

@@ -1,0 +1,22 @@
+.navbar{
+    background:rgba(107, 98, 197,0.5);
+    position: absolute;
+    width: 100%;
+    ul{
+        gap:40px;
+        li{
+
+            a{
+                color:$white;
+                transition: 0.4s;
+                &:hover{
+                    color: $green;
+                }
+            }
+        }
+    }
+
+    button{
+        @include button();
+    }
+}
