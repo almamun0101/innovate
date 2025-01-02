@@ -120,4 +120,77 @@ li {
   font-weight: 700;
   line-height: 40px;
   color: #141135;
+}
+
+#choose {
+  justify-content: space-between;
+}
+#choose .element {
+  position: absolute;
+  z-index: -1;
+}
+#choose .left {
+  padding: 100px 0px 91px 0px;
+}
+#choose .left .cards {
+  width: 568px;
+  align-items: center;
+  gap: 37px;
+  padding: 0px 146px 0px 28px;
+}
+#choose .left li:hover {
+  border: none;
+  border-radius: 12px;
+  padding: 42px 146px 42px 28px;
+  background: #ffffff;
+  box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#choose .left .circle {
+  position: relative;
+}
+#choose .left .circle1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #1BBF00;
+}
+#choose .left .circle2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #CBC8F0;
+  position: absolute;
+  top: 0;
+  left: 12px;
+}
+#choose .left .text p {
+  width: 331px;
+  font-size: 18px;
+  font-family: "Paprika", serif;
+  line-height: 30px;
+  color: #726E9E;
+}
+#choose .right {
+  padding-left: 186px;
+  padding-top: 100px;
+}
+#choose .right h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+#choose .right p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Paprika", serif;
+}
+#choose .right button {
+  background: #1BBF00;
+  box-shadow: 0 0 1px rgba(27, 191, 0, 0.25);
+  border: 3px solid transparent;
+  border-radius: 100px;
+  padding: 14px 28px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
 }/*# sourceMappingURL=style.css.map */
