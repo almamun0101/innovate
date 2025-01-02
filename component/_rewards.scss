@@ -1,0 +1,27 @@
+#rewards{
+    img{
+        position: absolute;
+        right: 0;
+    }
+    .col{
+        padding: 283px 0;
+    }
+    .card{
+        border:none;
+        border-right: 1px solid #4F585F;
+        background: transparent;
+    }
+    h3{
+        font-size: 64px;
+        font-weight: 800;
+        line-height: 87.16px;
+        color:$green;
+        padding-bottom: 24px;
+    }
+    p{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        color:$black;
+    }
+}

@@ -94,4 +94,30 @@ li {
 .banner .overlay button:hover {
   background: transparent;
   border: 3px solid #1BBF00;
+}
+
+#rewards img {
+  position: absolute;
+  right: 0;
+}
+#rewards .col {
+  padding: 283px 0;
+}
+#rewards .card {
+  border: none;
+  border-right: 1px solid #4F585F;
+  background: transparent;
+}
+#rewards h3 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 87.16px;
+  color: #1BBF00;
+  padding-bottom: 24px;
+}
+#rewards p {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #141135;
 }/*# sourceMappingURL=style.css.map */
