@@ -276,4 +276,36 @@ li {
   top: 0;
   right: 0;
   opacity: 0.3;
+}
+
+#impact .tittle {
+  padding-top: 91px;
+  padding-bottom: 75px;
+  width: 100%;
+  text-align: center;
+}
+#impact .tittle h3 {
+  font-size: 48px;
+  font-weight: 600;
+}
+#impact .tittle p {
+  width: 558px;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Paprika", serif;
+  margin: 0 auto;
+}
+#impact .content {
+  gap: 10px;
+  justify-content: center;
+}
+#impact .content .text h4 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+#impact .content .text p {
+  width: 343px;
+  font-size: 18px;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */

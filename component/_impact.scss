@@ -1,0 +1,47 @@
+#impact{
+
+    .tittle{
+        padding-top: 91px;
+        padding-bottom: 75px;
+        width: 100%;
+        text-align: center;
+
+        h3{
+            font-size: 48px;
+            font-weight: 600;
+
+        }
+        p{
+            width: 558px;
+            font-size: 18px;
+            line-height: 30px;
+            font-family: $paprika;
+            margin: 0 auto;
+
+        }
+    }
+    .content{
+        gap: 10px;
+        justify-content: center;
+
+        img{
+           
+        }
+        .text{
+            h4{
+                font-size: 30px;
+                line-height: 36px;
+                letter-spacing: 0.5px;
+
+            }
+            p{
+                width: 343px;
+                font-size: 18px;
+                line-height: 30px;
+
+            }
+
+        }
+
+    }
+}
