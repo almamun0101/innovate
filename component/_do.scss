@@ -1,0 +1,86 @@
+#do {
+    background: #F6F5FF;
+    width: 100%;
+    padding: 100px;
+
+    .start_card{
+        h3{
+            padding-bottom: 20px;
+            font-size: 48px;
+            font-weight: 600;
+
+        }
+        p{
+            width: 350px;
+            padding-bottom: 56px;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 0.5px;
+        }
+        button{
+            
+            @include button();
+        }
+    }
+
+    .content {
+        width: 370px;
+        text-align: center;
+        background: #ffffff;
+        padding: 48px;
+        border-radius: 20px;
+        margin-top: 15px;
+
+        &:hover {
+            background: $violet;
+            color: $white;
+
+            a {
+                color: $white;
+            }
+            .circle {
+                background:$white;
+            }
+
+        }
+
+        img {
+            padding-top: 48px;
+            padding-bottom: 32px;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 36px;
+
+        }
+
+        p {
+            width: 278px;
+            font-size: 18px;
+            line-height: 30px;
+            padding-bottom: 5px;
+
+        }
+
+
+
+        a {
+            position: relative;
+            padding: 5px;
+            z-index: 999;
+            font-weight: 600;
+            color: $black;
+            padding-bottom: 50px;
+        }
+
+        .circle {
+            @include half-circle();
+
+        }
+
+    }
+
+
+}
