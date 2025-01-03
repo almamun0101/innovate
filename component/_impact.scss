@@ -22,10 +22,15 @@
     }
     .content{
         gap: 10px;
-        justify-content: center;
+        // justify-items: center;
+        justify-content: space-between;
 
         img{
+            width: 100%;
            
+        }
+        li{
+            padding-top: 40px;
         }
         .text{
             h4{
@@ -41,6 +46,14 @@
 
             }
 
+        }
+        .left{
+            .cards{
+                gap:35px;
+                justify-content: center;
+              
+            }
+            
         }
 
     }

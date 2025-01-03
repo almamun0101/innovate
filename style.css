@@ -202,6 +202,9 @@ li {
   width: 100%;
   padding: 100px;
 }
+#do .start_card {
+  padding: 48px;
+}
 #do .start_card h3 {
   padding-bottom: 20px;
   font-size: 48px;
@@ -297,7 +300,13 @@ li {
 }
 #impact .content {
   gap: 10px;
-  justify-content: center;
+  justify-content: space-between;
+}
+#impact .content img {
+  width: 100%;
+}
+#impact .content li {
+  padding-top: 40px;
 }
 #impact .content .text h4 {
   font-size: 30px;
@@ -308,4 +317,8 @@ li {
   width: 343px;
   font-size: 18px;
   line-height: 30px;
+}
+#impact .content .left .cards {
+  gap: 35px;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
