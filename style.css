@@ -321,4 +321,55 @@ li {
 #impact .content .left .cards {
   gap: 35px;
   justify-content: center;
+}
+
+#plan {
+  background: #F9F9FB;
+}
+#plan .tittle {
+  padding-top: 100px;
+  padding-bottom: 64px;
+}
+#plan .tittle h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+#plan .cards {
+  border-radius: 20px;
+  background: #ffffff;
+}
+#plan .cards:hover {
+  background: #6B62C5;
+  color: #FAFAFE;
+}
+#plan .cards:hover p {
+  color: #FAFAFE;
+}
+#plan .cards h4 {
+  padding-top: 60px;
+  padding-bottom: 24px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+#plan .cards img {
+  width: 100%;
+}
+#plan .cards h3 {
+  font-size: 48px;
+  padding-top: 24px;
+  line-height: 50px;
+  font-weight: 800;
+  color: #1BBF00;
+  font-family: "Nunito", serif;
+}
+#plan .cards p {
+  width: 252px;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Paprika", serif;
+  margin: 0 auto;
+  color: #726E9E;
+  padding-bottom: 60px;
+  text-shadow: 1px 1px #000000;
 }/*# sourceMappingURL=style.css.map */
