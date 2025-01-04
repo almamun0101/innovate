@@ -207,8 +207,10 @@ li {
 }
 #do .start_card h3 {
   padding-bottom: 20px;
+  padding-top: 100px;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 700;
+  text-align: center;
 }
 #do .start_card p {
   width: 350px;
@@ -284,12 +286,12 @@ li {
 #impact .tittle {
   padding-top: 91px;
   padding-bottom: 75px;
-  width: 100%;
-  text-align: center;
 }
 #impact .tittle h3 {
+  padding-top: 100px;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 700;
+  text-align: center;
 }
 #impact .tittle p {
   width: 558px;
@@ -327,12 +329,13 @@ li {
   background: #F9F9FB;
 }
 #plan .tittle {
-  padding-top: 100px;
   padding-bottom: 64px;
 }
 #plan .tittle h2 {
+  padding-top: 100px;
   font-size: 48px;
   font-weight: 700;
+  text-align: center;
 }
 #plan .cards {
   border-radius: 20px;

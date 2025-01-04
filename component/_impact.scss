@@ -3,12 +3,9 @@
     .tittle{
         padding-top: 91px;
         padding-bottom: 75px;
-        width: 100%;
-        text-align: center;
 
         h3{
-            font-size: 48px;
-            font-weight: 600;
+            @include tittle();
 
         }
         p{

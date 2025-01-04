@@ -46,4 +46,10 @@ body {
   right: 0;
   opacity: .3;
 }
+@mixin tittle($font : 40px) {
+  padding-top: 100px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
 
