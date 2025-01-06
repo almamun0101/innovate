@@ -9,6 +9,26 @@
             @include tittle();
         }
     }
+    .pre-button{
+        width: 64px;
+        height: 64px;
+        background: #1BBF00;
+        border-radius: 50%;
+        padding-top:20px;
+        i{
+            font-size: 25px;
+        }
+    }
+    .next-button{
+        width: 64px;
+        height: 64px;
+        background: #1BBF00;
+        border-radius: 50%;
+        padding-top:20px;
+        i{
+            font-size: 25px;
+        }
+    }
     .slideshow{
         width: 1080px;
         padding-top: 100px;
@@ -30,6 +50,7 @@
                 width: 100%;
             }
         }
+        
     
         .slideshow_box {
             

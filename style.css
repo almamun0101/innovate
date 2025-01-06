@@ -391,6 +391,26 @@ li {
   font-weight: 700;
   text-align: center;
 }
+#thinks .pre-button {
+  width: 64px;
+  height: 64px;
+  background: #1BBF00;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+#thinks .pre-button i {
+  font-size: 25px;
+}
+#thinks .next-button {
+  width: 64px;
+  height: 64px;
+  background: #1BBF00;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+#thinks .next-button i {
+  font-size: 25px;
+}
 #thinks .slideshow {
   width: 1080px;
   padding-top: 100px;
