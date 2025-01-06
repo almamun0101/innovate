@@ -415,6 +415,7 @@ li {
   width: 1080px;
   padding-top: 100px;
   margin: 0 auto;
+  padding-bottom: 95px;
 }
 #thinks .slideshow .round_image {
   width: 147px;
@@ -459,4 +460,88 @@ li {
   line-height: 25px;
   color: #726E9E;
   font-family: "Paprika", serif;
+}
+
+#like {
+  background: #F9F9FB;
+  position: relative;
+}
+#like .container {
+  padding: 100px;
+}
+#like .container .tittle {
+  padding-bottom: 64px;
+}
+#like .container .tittle h2 {
+  padding-top: 100px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+#like .container .contents {
+  gap: 80px;
+  padding: 60px 0;
+}
+#like .container .contents .left {
+  width: 40%;
+  background: #C4C4C4;
+  border-radius: 20px;
+  z-index: 2;
+}
+#like .container .contents .right {
+  width: 60%;
+}
+#like .container .contents .right ul {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 16px;
+}
+#like .container .contents .right li a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color: #726E9E;
+  transition: 0.4s;
+}
+#like .container .contents .right li a:hover {
+  color: #1BBF00;
+}
+#like .container .contents .right li .active {
+  color: #1BBF00;
+}
+#like .container .contents .right h3 {
+  width: 504px;
+  padding-bottom: 16px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  color: #141135;
+}
+#like .container .contents .right a {
+  color: #141135;
+  position: relative;
+  padding: 5px;
+  font-weight: 700;
+}
+#like .container .contents .right a .circle {
+  width: 27px;
+  height: 40px;
+  border-radius: 0 50% 50% 0;
+  background: #1BBF00;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  opacity: 0.3;
+  z-index: 1;
+}
+#like .elements {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */

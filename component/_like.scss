@@ -1,0 +1,93 @@
+#like {
+    background: #F9F9FB;
+    position: relative;
+
+    .container {
+        padding: 100px;
+    
+
+
+
+        .tittle {
+            padding-bottom: 64px;
+
+            h2 {
+                @include tittle();
+                text-align-last: left;
+
+            }
+        }
+
+        .contents {
+            gap: 80px;
+            padding: 60px 0;
+
+            .left {
+                width: 40%;
+                background: #C4C4C4;
+                border-radius: 20px;
+                z-index: 2;
+
+            }
+
+            .right {
+                width: 60%;
+
+                ul {
+                    display: flex;
+                    gap: 20px;
+                    padding-bottom: 16px;
+                }
+
+                li {
+                    a {
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 22px;
+                        letter-spacing: -1px;
+                        color: #726E9E;
+                        transition: .4s;
+                        &:hover{
+                            color:#1BBF00;
+                        }
+                        
+                    }
+                    .active{
+                        color:#1BBF00;
+                    }
+                   
+                }
+
+                h3 {
+                    width: 504px;
+                    padding-bottom: 16px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 55px;
+                    letter-spacing: -1.5px;
+                    color: #141135;
+                }
+
+                a {
+                    color: $black;
+                    position: relative;
+                    padding: 5px;
+                    font-weight: 700;
+
+                    .circle {
+                        @include half-circle();
+                        z-index: 1;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .elements{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+}
