@@ -3,50 +3,74 @@
     text-align: center;
 
     .tittle {
-        padding-bottom: 157px;
+        padding-bottom: 80px;
 
         h2 {
             @include tittle();
         }
     }
-
-    .slideshow_box {
+    .slideshow{
         width: 1080px;
+        padding-top: 100px;
         margin: 0 auto;
-        border-radius: 20px;
-        background: #ffffff;
-        -webkit-box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.32);
-        -moz-box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.32);
-        box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.32);
-
-        .icon {
-            padding-top: 120px;
-            padding-bottom: 33px;
-
+       
+        .round_image {
+            width: 147px;
+            height: 147px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            background: red;
+            position: absolute;
+            -webkit-box-shadow: -10px 30px 50px 0px rgba(171,175,199,0.35);
+            -moz-box-shadow: -10px 30px 50px 0px rgba(171,175,199,0.35);
+            box-shadow: -10px 30px 50px 0px rgba(171,175,199,0.35);
+            
+            img {
+                width: 100%;
+            }
         }
-
-        .details {
-            width: 800px;
-            font-size: 24px;
-            line-height: 40px;
-            padding-bottom: 48px;
+    
+        .slideshow_box {
+            
             margin: 0 auto;
-            font-family: $paprika;
-            color: #726E9E;
-        }
-
-        h3 {
-            font-size: 25px;
-            font-weight: 700;
-            line-height: 40px;
-        }
-
-        p {
-            font-size: 16px;
-            padding-bottom: 56px;
-            line-height: 25px;
-            color: #726E9E;
-            font-family: $paprika;
+            border-radius: 20px;
+            background: #ffffff;
+            -webkit-box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.32);
+            -moz-box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.32);
+            box-shadow: -15px 30px 50px 0px rgba(171, 175, 199, 0.32);
+    
+    
+            .icon {
+                padding-top: 120px;
+                padding-bottom: 33px;
+    
+            }
+    
+            .details {
+                width: 800px;
+                font-size: 24px;
+                line-height: 40px;
+                padding-bottom: 48px;
+                margin: 0 auto;
+                font-family: $paprika;
+                color: #726E9E;
+            }
+    
+            h3 {
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+    
+            p {
+                font-size: 16px;
+                padding-bottom: 56px;
+                line-height: 25px;
+                color: #726E9E;
+                font-family: $paprika;
+            }
+    
         }
 
     }
