@@ -21,7 +21,7 @@ body {
     list-style: none;
   }
 .container{
-    min-width: 1170px;
+    max-width: 1170px;
 }
 
 @mixin button($theme: $green) {

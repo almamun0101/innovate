@@ -16,7 +16,7 @@ li {
 }
 
 .container {
-  min-width: 1170px;
+  max-width: 1170px;
 }
 
 .navbar {
@@ -51,7 +51,6 @@ li {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 100%;
 }
 .banner .overlay {
   padding: 246px 0 254px 0;
@@ -101,7 +100,7 @@ li {
   position: absolute;
   right: 0;
 }
-#rewards .col {
+#rewards .row {
   padding: 283px 0;
 }
 #rewards .card {

@@ -1,0 +1,63 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    .navbar button {
+        padding: 5px 10px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 36px;
+    }
+
+    .banner .overlay {
+        padding: 150px 0 50px 0;
+    }
+
+    .banner .overlay h2 {
+        width: auto;
+        font-size: 32px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+
+    .banner .overlay p {
+        width: auto;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Paprika", serif;
+        line-height: 18px;
+        padding-bottom: 16px;
+    }
+
+    .banner .overlay button {
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 36px;
+    }
+
+
+    /* Rewards */
+    #rewards img {
+        width: 150px;
+    }
+    #rewards .row {
+        padding: 35px 0;
+    }
+    #rewards .content h3 {
+        font-size: 34px;
+        font-weight: 800;
+        /* line-height: ; */
+        color: #1BBF00;
+        /* padding-bottom: 5px; */
+        margin: 0;
+        padding: 0;
+    }
+    #rewards .content p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height:20px;
+        color: #141135;
+    }
+
+
+
+}
