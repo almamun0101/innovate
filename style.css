@@ -562,6 +562,9 @@ li {
   display: flex;
   gap: 30px;
 }
+#footer .content .logo {
+  padding-bottom: 189px;
+}
 #footer .content .logo p {
   width: 449px;
   font-size: 18px;
@@ -589,4 +592,18 @@ li {
 #footer .content .support ul {
   flex-direction: column;
   gap: 30px;
+}
+#footer .bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #FAFAFE;
+}
+#footer .bottom .left {
+  align-items: center;
+  text-align: center;
+}
+#footer .bottom .right {
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */

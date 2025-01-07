@@ -4,6 +4,7 @@
     padding-bottom: 80px;
 
     .content {
+
         justify-content: space-between;
         color: $white;
 
@@ -19,6 +20,8 @@
         }
 
         .logo {
+
+            padding-bottom: 189px;
 
             p {
                 width: 449px;
@@ -60,4 +63,21 @@
             }
         }
     }
+    .bottom{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        color:$white;
+        .left{
+            align-items: center;
+        text-align: center;
+        }
+        .right{
+            justify-content: space-around;
+        }
+
+    }
+
 }
