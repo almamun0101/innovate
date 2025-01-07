@@ -1,5 +1,4 @@
 @media (min-width: 320px) and (max-width: 575px) {
-    
     .navbar button {
         padding: 5px 10px;
         color: #fff;
@@ -86,20 +85,100 @@
         color: #726E9E;
     }
     #choose .right {
-       padding: 25px;
+       padding: 30px 15px;
     }
     #choose .right button {
-        background: #1BBF00;
-        box-shadow: 0 0 1px rgba(27, 191, 0, 0.25);
-        border: 3px solid transparent;
-        border-radius: 100px;
-        padding: 14px 28px;
-        color: #fff;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 36px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    #choose .right h3 {
+        font-size: 26px;
+    }
+    #choose .right p{
+        font-size: 16px;
+    }
+    #choose .row {
+        padding: 10px;
+    }
+    #do {
+        padding: 10px;
+    }
+    #do .start_card {
+        padding: 20px;
+    }
+    #do .start_card h3 {
+        padding-bottom: 20px;
+        padding-top: 10px;
+        font-size: 30px;  
+    }
+    #do .start_card p {
+        width: auto;
+        padding-bottom: 40px;
+    }
+
+    /* impact */
+    #impact .tittle {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    #impact .tittle h3 {
+        padding-top: 60px;
+        font-size: 30px;
+    }
+    #impact .tittle p {
+        width: auto;
+        font-size: 16px;
+    }
+
+    /* plan */
+    #plan .tittle h2 {
+        padding-top: 50px;
+        font-size: 30px;
     }
 
 
+    /* thinks */
+    #thinks .tittle h2 {
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    #thinks .tittle {
+        padding-bottom: 10px;
+    }
+    #thinks .slideshow {
+        width: auto;
+        padding-bottom: 10px;
+      
+    }
+    #thinks .slideshow .slideshow_box .details {
+        width: auto;
+        font-size: 16px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    #thinks .next-button {
+        width: 45px;
+        height: 45px;
+        opacity: .5;
+        padding-top: 10px;
+    }
+    #thinks .pre-button {
+        width: 45px;
+        height: 45px;
+        opacity: .5;
+        padding-top: 10px;
+    }
+
+    /* like */
+    #like .container {
+        padding: 10px;
+    }
+    #like .container .tittle h2 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    #like .container .tittle {
+        padding-bottom: 0px;
+    }
 
 }
