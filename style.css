@@ -129,7 +129,7 @@ li {
   position: absolute;
   z-index: -1;
 }
-#choose .left {
+#choose .row {
   padding: 100px 0px 91px 0px;
 }
 #choose .left .cards {

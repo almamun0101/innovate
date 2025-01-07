@@ -1,4 +1,5 @@
 @media (min-width: 320px) and (max-width: 575px) {
+    
     .navbar button {
         padding: 5px 10px;
         color: #fff;
@@ -39,23 +40,64 @@
     #rewards img {
         width: 150px;
     }
+
     #rewards .row {
         padding: 35px 0;
     }
+
     #rewards .content h3 {
         font-size: 34px;
         font-weight: 800;
-        /* line-height: ; */
-        color: #1BBF00;
-        /* padding-bottom: 5px; */
         margin: 0;
         padding: 0;
     }
+
     #rewards .content p {
         font-size: 16px;
         font-weight: 700;
-        line-height:20px;
+        line-height: 20px;
         color: #141135;
+    }
+
+
+    /* Chose */
+    #choose .element {
+        width: 150px;
+    }
+
+    #choose .left {
+        padding: 0px;
+    }
+
+    #choose .left .cards {
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+        padding: 0px 146px 0px 28px;
+    }
+    #choose .left li:hover {
+        padding: 10px;
+    }
+
+    #choose .left .text p {
+        width: auto;
+        font-size: 12px;
+        line-height: 15px;
+        color: #726E9E;
+    }
+    #choose .right {
+       padding: 25px;
+    }
+    #choose .right button {
+        background: #1BBF00;
+        box-shadow: 0 0 1px rgba(27, 191, 0, 0.25);
+        border: 3px solid transparent;
+        border-radius: 100px;
+        padding: 14px 28px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 36px;
     }
 
 

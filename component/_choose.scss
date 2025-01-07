@@ -1,24 +1,27 @@
 #choose {
     justify-content: space-between;
+
     .element {
         position: absolute;
         z-index: -1;
     }
 
-    .left {
-        
+    .row {
         padding: 100px 0px 91px 0px;
+    }
+
+    .left {
 
         .cards {
             width: 568px;
             align-items: center;
             gap: 37px;
             padding: 0px 146px 0px 28px;
-            
+
         }
 
         li:hover {
-            border:none;
+            border: none;
             border-radius: 12px;
             padding: 42px 146px 42px 28px;
             background: #ffffff;
@@ -66,18 +69,20 @@
         padding-top: 100px;
         padding-bottom: 237px;
 
-        h3{
+        h3 {
             font-size: 48px;
             font-weight: bold;
 
         }
-        p{
+
+        p {
             font-size: 18px;
             line-height: 30px;
             font-family: $paprika;
 
         }
-        button{
+
+        button {
             @include button();
         }
     }
