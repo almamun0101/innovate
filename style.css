@@ -544,4 +544,49 @@ li {
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+#footer {
+  background: #48409C;
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+#footer .content {
+  justify-content: space-between;
+  color: #FAFAFE;
+}
+#footer .content a {
+  color: #FAFAFE;
+}
+#footer .content ul li {
+  display: flex;
+  gap: 30px;
+}
+#footer .content .logo p {
+  width: 449px;
+  font-size: 18px;
+  line-height: 180%;
+  font-family: "Nunito", serif;
+  color: #FAFAFE;
+}
+#footer .content .features h4 {
+  padding-bottom: 30px;
+}
+#footer .content .features ul {
+  flex-direction: column;
+  gap: 30px;
+}
+#footer .content .prooduct h4 {
+  padding-bottom: 30px;
+}
+#footer .content .prooduct ul {
+  flex-direction: column;
+  gap: 30px;
+}
+#footer .content .support h4 {
+  padding-bottom: 30px;
+}
+#footer .content .support ul {
+  flex-direction: column;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */

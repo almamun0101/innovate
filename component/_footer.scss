@@ -1,0 +1,63 @@
+#footer {
+    background: #48409C;
+    padding-top: 140px;
+    padding-bottom: 80px;
+
+    .content {
+        justify-content: space-between;
+        color: $white;
+
+        a {
+            color: $white;
+        }
+
+        ul {
+            li {
+                display: flex;
+                gap: 30px;
+            }
+        }
+
+        .logo {
+
+            p {
+                width: 449px;
+                font-size: 18px;
+                line-height: 180%;
+                font-family: "Nunito", serif;
+                color: $white;
+            }
+        }
+
+        .features {
+            h4 {
+                padding-bottom: 30px;
+            }
+
+            ul {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        .prooduct {
+            h4 {
+                padding-bottom: 30px;
+            }
+
+            ul {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        .support {
+            h4 {
+                padding-bottom: 30px;
+            }
+
+            ul {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    }
+}
