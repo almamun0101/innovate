@@ -180,5 +180,17 @@
     #like .container .tittle {
         padding-bottom: 0px;
     }
-
+    #like .container .contents .right {
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    #like .container .contents .right li a {
+        font-size: 14px;
+    }
+    #like .container .contents .right h3 {
+        width: auto;
+        padding-bottom: 15px;
+        font-size: 22px;
+        line-height: 35px;
+    }
 }

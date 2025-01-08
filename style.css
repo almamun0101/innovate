@@ -465,9 +465,6 @@ li {
   background: #F9F9FB;
   position: relative;
 }
-#like .container {
-  padding: 100px;
-}
 #like .container .tittle {
   padding-bottom: 64px;
 }
@@ -484,13 +481,14 @@ li {
   padding: 60px 0;
 }
 #like .container .contents .left {
-  width: 40%;
   background: #C4C4C4;
   border-radius: 20px;
   z-index: 2;
+  padding: 100px;
 }
 #like .container .contents .right {
-  width: 60%;
+  z-index: 2;
+  padding-left: 100px;
 }
 #like .container .contents .right ul {
   display: flex;
