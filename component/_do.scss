@@ -4,11 +4,13 @@
     padding: 100px;
 
     .start_card{
-        padding: 48px;
         h3{
-            padding-bottom: 20px;
             @include tittle();
-
+            padding-bottom: 20px;
+                
+                font-size: 48px;
+                font-weight: 700;
+                text-align: left;
         }
         p{
             width: 350px;

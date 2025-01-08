@@ -172,7 +172,6 @@ li {
 }
 #choose .right {
   padding-left: 186px;
-  padding-top: 100px;
   padding-bottom: 237px;
 }
 #choose .right h3 {
@@ -201,15 +200,15 @@ li {
   width: 100%;
   padding: 100px;
 }
-#do .start_card {
-  padding: 48px;
-}
 #do .start_card h3 {
-  padding-bottom: 20px;
   padding-top: 100px;
   font-size: 48px;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
 }
 #do .start_card p {
   width: 350px;
