@@ -22,10 +22,6 @@
         // justify-items: center;
         justify-content: space-between;
 
-        img{
-            width: 100%;
-           
-        }
         li{
             padding-top: 40px;
         }
@@ -48,7 +44,17 @@
             .cards{
                 gap:35px;
                 justify-content: center;
+
+                .pics{
+                    width: 100%;
+                }
               
+            }
+            
+        }
+        .right{
+            .group{
+                width: 100%;
             }
             
         }

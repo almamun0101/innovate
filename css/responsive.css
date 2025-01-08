@@ -220,3 +220,232 @@
        
     }
 }
+
+@media (min-width: 575px) and (max-width: 992px)  {
+    .navbar button {
+        padding: 5px 10px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 36px;
+    }
+
+    .banner .overlay {
+        padding: 150px 0 50px 0;
+    }
+
+    .banner .overlay h2 {
+        width: auto;
+        font-size: 32px;
+        line-height: 45px;
+        padding-bottom: 15px;
+    }
+
+    .banner .overlay p {
+        width: auto;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Paprika", serif;
+        line-height: 18px;
+        padding-bottom: 16px;
+    }
+
+    .banner .overlay button {
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 36px;
+    }
+
+
+    /* Rewards */
+    #rewards img {
+        width: 150px;
+    }
+
+    #rewards .row {
+        padding: 35px 0;
+    }
+
+    #rewards .content h3 {
+        font-size: 34px;
+        font-weight: 800;
+        margin: 0;
+        padding: 0;
+    }
+
+    #rewards .content p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #141135;
+    }
+
+
+    /* Chose */
+    #choose .element {
+        width: 150px;
+    }
+
+    #choose .left {
+        padding: 0px;
+    }
+
+    #choose .left .cards {
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+        padding: 0px 146px 0px 28px;
+    }
+    #choose .left li:hover {
+        padding: 10px;
+    }
+
+    #choose .left .text p {
+        width: auto;
+        font-size: 12px;
+        line-height: 15px;
+        color: #726E9E;
+    }
+    #choose .right {
+       padding: 30px 15px;
+    }
+    #choose .right button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    #choose .right h3 {
+        font-size: 26px;
+    }
+    #choose .right p{
+        font-size: 16px;
+    }
+    #choose .row {
+        padding: 10px;
+    }
+    #do {
+        padding: 10px;
+    }
+    #do .start_card {
+        padding: 20px;
+    }
+    #do .start_card h3 {
+        padding-bottom: 20px;
+        padding-top: 10px;
+        font-size: 30px;  
+    }
+    #do .start_card p {
+        width: auto;
+        padding-bottom: 40px;
+    }
+
+    /* impact */
+    #impact .tittle {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    #impact .tittle h3 {
+        padding-top: 60px;
+        font-size: 30px;
+    }
+    #impact .tittle p {
+        width: auto;
+        font-size: 16px;
+    }
+    #impact .content .cards{
+        padding: 10px;
+    }
+
+    /* plan */
+    #plan .tittle h2 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+
+    /* thinks */
+    #thinks .tittle h2 {
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    #thinks .tittle {
+        padding-bottom: 10px;
+    }
+    #thinks .slideshow {
+        width: auto;
+        padding-bottom: 10px;
+      
+    }
+    #thinks .slideshow .slideshow_box .details {
+        width: auto;
+        font-size: 16px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    #thinks .next-button {
+        width: 45px;
+        height: 45px;
+        opacity: .5;
+        padding-top: 10px;
+    }
+    #thinks .pre-button {
+        width: 45px;
+        height: 45px;
+        opacity: .5;
+        padding-top: 10px;
+    }
+
+    /* like */
+    #like .container {
+        padding: 10px;
+    }
+    #like .container .tittle h2 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+    #like .container .tittle {
+        padding-bottom: 0px;
+    }
+    #like .container .contents {
+        padding: 30px 0;
+    }
+    #like .container .contents .right {
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    #like .container .contents .right li a {
+        font-size: 14px;
+    }
+    #like .container .contents .right h3 {
+        width: auto;
+        padding-bottom: 15px;
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    /* footer */
+    #footer {
+        padding: 50px 10px;
+
+
+    }
+    #footer .bottom {
+        padding-top: 50px;
+    }
+    #footer a{
+        font-size: 14px;
+    }
+    #footer h4{
+        font-size: 20px;
+    }
+    #footer .content .logo {
+        padding-bottom: 89px;
+    }
+    #footer .content {
+        justify-content: space-around;
+       
+    }
+}
+
+
+
