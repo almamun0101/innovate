@@ -323,6 +323,8 @@
     #choose .row {
         padding: 10px;
     }
+
+
     #do {
         padding: 10px;
     }
@@ -336,7 +338,28 @@
     }
     #do .start_card p {
         width: auto;
-        padding-bottom: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    #do .content p {
+        width: auto;
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    #do .content h3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    #do .content {
+        width: auto;
+        text-align: center;
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 20px;
+        margin-top: 15px;
     }
 
     /* impact */
