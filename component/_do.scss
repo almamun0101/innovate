@@ -4,6 +4,10 @@
     padding: 100px;
 
     .start_card{
+        transition: 10s;
+        transition-duration: 5s;
+
+        
         h3{
             @include tittle();
             padding-bottom: 20px;
